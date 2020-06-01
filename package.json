@@ -1,0 +1,25 @@
+{
+  "name": "algotrading-1.0",
+  "version": "1.0.0",
+  "description": "Algotrading Algotrading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhii-edit/Algotrading-1.0.git"
+  },
+  "author": "Serhii Yakymenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serhii-edit/Algotrading-1.0/issues"
+  },
+  "homepage": "https://github.com/serhii-edit/Algotrading-1.0#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
