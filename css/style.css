@@ -306,7 +306,71 @@ template {
 * {
   box-sizing: box-sizing; }
 
+* {
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-transform: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  vertical-align: baseline; }
+  a {
+    color: black; }
+  a:hover {
+    color: black; }
+
+.container {
+  width: 85%;
+  max-width: 1256px; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Regular.woff") format(woff), url("../fonts/Roboto/Roboto-Regular.woff2") format(woff2);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px; }
+
 .header {
   text-transform: uppercase;
   color: black;
-  text-align: center; }
+  text-align: center;
+  background-color: #c9c1c1;
+  border: 2px solid orange; }
+
+.header__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.logo__image {
+  margin-right: 12px; }
+
+.logo__text {
+  text-align: left;
+  color: #0f1c2e;
+  font-size: 24px;
+  font-family: "Roboto"; }
+
+.header__ul_a {
+  margin-right: 70px; }
