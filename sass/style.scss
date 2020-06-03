@@ -4,3 +4,10 @@
 @import "fonts";
 @import "variables";
 @import "templates/header";
+@import "templates/hero";
+@import "media";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}

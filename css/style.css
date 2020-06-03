@@ -306,7 +306,7 @@ template {
 * {
   box-sizing: box-sizing; }
 
-* {
+*, ::before, *::after {
   box-sizing: border-box; }
 
 html {
@@ -331,7 +331,8 @@ a {
 
 .container {
   width: 85%;
-  max-width: 1256px; }
+  max-width: 1256px;
+  margin: 0 auto; }
 
 @font-face {
   font-family: 'Roboto';
@@ -340,28 +341,38 @@ a {
   font-style: normal;
   font-display: swap; }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 15px; }
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/Mariad/MyriadPro-Regular.woff") format(woff), url("../fonts/Mariad/MyriadPro-Regular.woff2") format(woff2);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
 
 .header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  top: 0;
+  left: 0;
   text-transform: uppercase;
   color: black;
-  text-align: center;
-  background-color: #c9c1c1;
-  border: 2px solid orange; }
+  text-align: center; }
 
-.header__container {
-  margin: 0 auto;
+.container__header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  max-width: 1142px;
+  padding-top: 20px;
+  padding-bottom: 18px; }
 
 .header__logo {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  margin-right: -10px; }
 
 .logo__image {
   margin-right: 12px; }
@@ -369,8 +380,300 @@ body {
 .logo__text {
   text-align: left;
   color: #0f1c2e;
-  font-size: 24px;
-  font-family: "Roboto"; }
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; }
 
 .header__ul_a {
-  margin-right: 70px; }
+  margin-right: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.869rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #777777; }
+
+.header__ul_a:hover {
+  padding-bottom: 33px;
+  border-bottom: 2px solid #0056cf;
+  border-radius: 2px; }
+
+.tel__number {
+  font-weight: 300;
+  color: #777777;
+  font-size: 1.5rem; }
+
+.tel__number_black {
+  color: black;
+  font-weight: 700; }
+
+.burger__nav {
+  display: none; }
+
+.hero {
+  background: url("../../img/header/robot.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 2184px;
+  min-height: 1135px;
+  z-index: 1;
+  position: relative;
+  padding-top: 100px; }
+
+.hero_edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.hero__info_edit {
+  position: absolute;
+  top: 245px; }
+
+.hero-info__title {
+  margin: 0;
+  font-size: 72px;
+  color: #0f1c2e;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif; }
+
+.hero-info__subtitle {
+  color: #000000;
+  font-size: 35px;
+  font-weight: 400px;
+  font-family: "Myriad Pro", sans-serif;
+  display: inline-block;
+  margin-bottom: 24px; }
+
+.hero-info__description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 23.97px;
+  max-width: 355px;
+  margin-bottom: 63px; }
+
+.hero-info__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 50px; }
+
+.hero-buttons_primary {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px 40px;
+  background-color: #0842b7;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 13px; }
+
+.hero-buttons_outline {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #0842b7;
+  padding: 13px 40px;
+  background-color: transparent;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px;
+  border: 1px solid #0842b7;
+  display: inline-block; }
+
+.hero-info__row {
+  display: flex;
+  flex-direction: row; }
+
+.robot__text {
+  margin: 0;
+  margin-top: 17px;
+  vertical-align: top;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 300;
+  color: #0f1c2e;
+  line-height: 28.76px;
+  font-family: 'Roboto', sans-serif; }
+
+.robot__text_wrap {
+  display: block; }
+
+.robot__text_primary {
+  color: #06bee1;
+  display: inline-block; }
+
+.hero-info__row_edit {
+  margin-bottom: 295px; }
+
+.hero__whyRobot {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 23px 16px 18px;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Myriad Pro", sans-serif; }
+
+@media screen and (max-width: 1185px) {
+  .header__ul_a {
+    margin-right: 65px; } }
+
+@media screen and (max-width: 1110px) {
+  .header__ul_a {
+    margin-right: 40px; } }
+
+@media screen and (max-width: 1030px) {
+  .tel__number {
+    font-size: 1.3rem; }
+  .logo__text {
+    font-size: 1.1rem; } }
+
+@media screen and (max-width: 990px) {
+  .header__ul_a {
+    margin-right: 30px; } }
+
+@media screen and (max-width: 919px) {
+  .header__nav {
+    display: none; }
+  .burger-menu {
+    position: relative;
+    transition: 0.5s; }
+  .burger__nav {
+    position: absolute;
+    display: inline-block; }
+  .burger-menu__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2a2a2a;
+    transition: 0.2s; }
+  .burger-menu__lines,
+  .burger-menu__lines::after,
+  .burger-menu__lines::before {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s; }
+  .burger-menu__lines::before {
+    content: "";
+    top: -10px; }
+  .burger-menu__lines::after {
+    content: "";
+    top: 10px; }
+  .burger-menu__active .burger-menu__lines {
+    background-color: transparent; }
+  .burger-menu__active .burger-menu__lines::before {
+    top: 0;
+    transform: rotate(125deg); }
+  .burger-menu__active .burger-menu__lines::after {
+    top: 0;
+    transform: rotate(235deg); }
+  .burger__ul {
+    padding: 0; }
+  .burger__nav {
+    right: -150%;
+    text-align: left;
+    position: fixed;
+    z-index: 20;
+    height: 250px;
+    background-color: #2a2a2aa1;
+    overflow-y: auto;
+    top: 85px;
+    transition: 0.5s; }
+  .burger__ul {
+    display: flex;
+    flex-direction: column; }
+  .burger-menu__active .burger__nav {
+    right: 0; }
+  .burger__ul_a {
+    padding: 30px 25px 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #fff; }
+  .burger-menu__overlay {
+    display: none;
+    position: fixed;
+    z-index: -1;
+    width: 250vh;
+    height: 100vh;
+    top: 0;
+    left: 0; }
+  .burger-menu__active {
+    z-index: 115; }
+  .burger-menu__active .burger-menu__overlay {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .container__header {
+    position: relative; }
+  .header__tel {
+    position: absolute;
+    right: 80px;
+    float: right; } }
+
+@media screen and (max-width: 530px) {
+  .logo__text {
+    font-size: 12px; }
+  .tel__number {
+    font-size: 12px; } }
+
+@media screen and (max-width: 390px) {
+  .burger-menu__button {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(74, 158, 66, 0.623); }
+  .burger-menu__lines,
+  .burger-menu__lines::after,
+  .burger-menu__lines::before {
+    width: 18px;
+    height: 3px; }
+  .header__tel {
+    right: 45px; }
+  .logo__image {
+    margin-right: 5px; }
+  .logo__text {
+    font-size: 11px; } }
+
+@media screen and (max-width: 730px) {
+  .hero-info__title {
+    font-size: 55px; }
+  .hero-info__subtitle {
+    font-size: 30px; } }
+
+@media screen and (max-width: 690px) {
+  .hero-info__row {
+    flex-direction: column; }
+  .hero-info__description {
+    margin-bottom: 10px; }
+  .hero-info__robot {
+    margin-bottom: 25px; }
+  .hero-info__buttons {
+    order: 2; } }
+
+@media screen and (max-width: 576px) {
+  .hero-info__title {
+    font-size: 40px; }
+  .hero-info__subtitle {
+    font-size: 21.5px; } }
+
+@media screen and (max-width: 414px) {
+  .hero-info__title {
+    font-size: 30px; }
+  .hero-info__subtitle {
+    font-size: 14px; } }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; }

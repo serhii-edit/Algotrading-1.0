@@ -1,6 +1,7 @@
-* {
+*, ::before, *::after {
   box-sizing: border-box;
 }
+
 
 html {
   margin: 0;

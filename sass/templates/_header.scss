@@ -1,23 +1,33 @@
 .header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  top: 0;
+  left: 0;
   text-transform: uppercase;
   color: black;
   text-align: center;
-  background-color: rgb(201, 193, 193);
-  border: 2px solid orange;
+  // border-bottom: 1px solid red;
 }
 
-.header__container {
-  margin: 0 auto;
+.container__header {
+  // margin-left: 0;
+  // left: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  max-width: 1142px;
+  padding-top: 20px;
+  padding-bottom: 18px;
 }
 
 .header__logo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-right: -10px;
 }
 
 .logo__image {
@@ -27,11 +37,37 @@
 .logo__text {
   text-align: left;
   color: #0f1c2e;
-  font-size: 24px;
-  // font-variant: small-caps;
-  font-family: "Roboto";
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .header__ul_a {
-  margin-right: 70px;
+  margin-right: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.869rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #777777;
+}
+
+.header__ul_a:hover {
+  padding-bottom: 33px;
+  border-bottom: 2px solid #0056cf;
+  border-radius: 2px;
+}
+
+.tel__number {
+  font-weight: 300;
+  color: #777777;
+  font-size: 1.5rem
+}
+
+.tel__number_black {
+  color: black;
+  font-weight: 700;
+}
+
+.burger__nav {
+  display: none;
 }
