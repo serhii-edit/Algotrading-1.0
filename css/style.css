@@ -517,6 +517,20 @@ a {
   font-weight: 400;
   font-family: "Myriad Pro", sans-serif; }
 
+.hero__percent_row {
+  position: absolute;
+  bottom: -80px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+
+.percent__title_edit {
+  font-size: 324px;
+  font-weight: 40;
+  font-family: "Roboto";
+  color: #0f1c2e; }
+
 @media screen and (max-width: 1185px) {
   .header__ul_a {
     margin-right: 65px; } }
