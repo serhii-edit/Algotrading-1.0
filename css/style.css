@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
 .hero {
-  background: url("../../img/header/robot.jpg");
+  background: url("../img/header/robot.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
