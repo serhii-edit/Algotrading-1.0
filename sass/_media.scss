@@ -243,3 +243,73 @@
     // max-width: 355px;
   }
 }
+
+// section precent (down)
+
+@media screen and ( max-width: 1232px ) {
+  .percent__left {
+    padding-right: 150px;
+  }
+}
+
+@media screen and ( max-width: 1070px ) {
+  .percent__title_edit {
+    font-size: 250px;
+  }
+  .percent__left {
+    padding-right: 120px;
+  }
+  .percent__right {
+    // margin-bottom: -125px;
+  }
+}
+
+@media screen and (max-width: 920px ) {
+  .hero__percent_row {
+    flex-direction: column;
+    align-items: center;
+    position: unset;
+    float: none;
+    margin-top: -100px;
+    top: unset;
+  }
+  .percent__left {
+    padding-right: 0;
+    margin-bottom: 70px;
+  }
+  .percent__title_right {
+    text-align: center;
+  }
+  .percent__subtitle_right {
+    text-align: center;
+  }
+  .percent__title_edit {
+    font-size: 200px;
+  }
+  .percent__right-side img {
+    margin-bottom: 30px;
+  }
+  .percent__right-side {
+    margin-right: 0;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .percent__right {
+    flex-direction: column;
+  }
+}
+
+@media screen and ( max-width: 530px ) {
+  .percent__title_edit {
+    font-size: 160px;
+  }
+  .percent__subtitle_left {
+    font-size: 20px;
+  }
+  .hero__whyRobot {
+    font-size: 25px;
+    padding: 14px 14px 14px 14px;
+  }
+}

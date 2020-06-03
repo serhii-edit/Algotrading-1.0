@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 .hero {
   background: url("../../img/header/robot.jpg");
   background-position: center;
@@ -124,18 +128,94 @@
   // margin-bottom: 77px;
 }
 
-.hero__percent_row {
-  position: absolute;
-  bottom: -80px;
-  float: left;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
+// .hero__percent_row {
+//   position: absolute;
+//   bottom: -327px;
+//   float: left;
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   float: left;
+// }
 
-.percent__title_edit {
-  font-size: 324px;
-  font-weight: 40;
-  font-family: "Roboto";
-  color: #0f1c2e;
-}
+// .percent__left {
+//   padding-right: 110px;
+// }
+
+// .percent__right-side {
+//   max-width: 268px;
+// }
+
+// .percent__title_edit {
+//   font-size: 330px;
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 200;
+//   margin: 0;
+//   position: relative;
+// }
+
+// .percent__title_edit sub {
+//   color: #06bee1;
+//   font-family: "Roboto", sans-serif;
+//   letter-spacing: 11.2px;
+//   font-size: 112px;
+//   position: absolute;
+//   bottom: 105px;
+// }
+
+// .precent__title_p {
+//   font-size: 100px;
+// }
+
+// .percent__right {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: flex-start;
+// }
+
+// .percent__right-side {
+//   vertical-align: top;
+//   text-align: left;
+// }
+
+// .percent__right-side img {
+//   margin-bottom: 74px;
+//   height: 66px;
+// }
+
+// .percent__title_right {
+//   margin: 0;
+//   font-size: 24px;
+//   font-family: "Roboto", sans-serif;
+//   font-weight: 300;
+// }
+
+// .percent__subtitle_right {
+//   font-family: "Roboto", sans-serif;
+//   font-size: 16px;
+//   font-weight: 300;
+//   line-height: 24px;
+//   color: #061826;
+// }
+
+// .right-title__bold {
+//   font-weight: 700;
+// }
+
+// .percent__subtitle_left {
+//   font-size: 24px;
+//   font-weight: 700;
+//   font-family: "Roboto", sans-serif;
+//   line-height: 28.8px;
+// }
+
+// .percent__description_left {
+//   font-size: 16px;
+//   font-weight: 300;
+//   font-family: "Roboto", sans-serif;
+//   max-width: 212px;
+// }
+
+// .percent__subtitle_left {
+//   // margin-bottom: 120px;
+// }
