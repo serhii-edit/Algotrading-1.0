@@ -400,6 +400,27 @@
   }
 }
 
-@media screen and  ( max-width: 540px ) {
-  
+@media screen and  ( max-width: 550px ) {
+  .gain__title {
+    font-size: 30px;
+  }
+  .gain__phone {
+    background-size: cover;
+  }
+  .gain__wrap-phone {
+    width: 359px;
+  }
+  .gain__bg__screen {
+    left: 24px;
+    background-size: cover;
+  }
+}
+
+@media screen and ( max-width: 410px ) {
+  .gain__phone {
+    background-size: contain;
+  }
+  .gain__bg__screen {
+    background-size: contain;
+  }
 }

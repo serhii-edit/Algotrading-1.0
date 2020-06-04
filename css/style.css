@@ -776,12 +776,15 @@ h1, h2, h3, h4, h5, h6, p {
   color: #0f1c2e;
   margin-bottom: 70px; }
 
+.gain__wrap-phone {
+  width: 526px;
+  margin-top: -227px; }
+
 .gain__phone {
   position: relative;
   background: url("../img/gain/gain-iphone.png") no-repeat center/cover;
-  width: 526px;
+  width: 100%;
   min-height: 860px;
-  margin-top: -227px;
   box-shadow: -29px 52px 22px rgba(244, 248, 251, 0.68); }
 
 .gain__bg__screen {
@@ -1151,6 +1154,23 @@ h1, h2, h3, h4, h5, h6, p {
   .women-1__wrap {
     width: 100%; }
   .women-1__video {
+    background-size: contain; } }
+
+@media screen and (max-width: 550px) {
+  .gain__title {
+    font-size: 30px; }
+  .gain__phone {
+    background-size: cover; }
+  .gain__wrap-phone {
+    width: 359px; }
+  .gain__bg__screen {
+    left: 24px;
+    background-size: cover; } }
+
+@media screen and (max-width: 410px) {
+  .gain__phone {
+    background-size: contain; }
+  .gain__bg__screen {
     background-size: contain; } }
 
 body {
