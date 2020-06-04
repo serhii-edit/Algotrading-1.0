@@ -3,3 +3,14 @@
   max-width: 1256px;
   margin: 0 auto;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

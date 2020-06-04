@@ -299,6 +299,9 @@
   .percent__right {
     flex-direction: column;
   }
+  .precent__edit {
+    padding-bottom: 65px;
+  }
 }
 
 @media screen and ( max-width: 530px ) {
@@ -311,5 +314,79 @@
   .hero__whyRobot {
     font-size: 25px;
     padding: 14px 14px 14px 14px;
+  }
+}
+
+@media screen and ( max-width: 1202px ) {
+  .flex-row {
+    font-size: 13px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .robot-2__left {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and ( max-width: 920px ) {
+  .robot-2__row_shape {
+    padding: 13px 23px 14px 10px;
+  }
+  .robot-2__row_text {
+    font-size: 11px;
+  }
+  .robot-2__row_shape {
+    font-size: 14px;
+    padding: 16px 19px 18px 6px;
+  }
+}
+
+@media screen and ( max-width: 619px ) {
+  .robot-2__row {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .robot-2__row_text {
+    margin-bottom: 25px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .robot-2__row_shape {
+    width: 70px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .creat-robot__title {
+    font-size: 30px;
+  }
+  .creat-robot__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .creat-robot__primary {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .start-learn__title {
+    font-size: 18px;
+  }
+  .start-lern__button {
+    font-size: 13px;
+  }
+}
+
+@media screen and ( max-width: 405px ) {
+  .start-learn__title {
+    font-size: 15px;
   }
 }

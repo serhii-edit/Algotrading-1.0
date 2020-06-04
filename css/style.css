@@ -329,10 +329,23 @@ a {
   a:hover {
     color: black; }
 
+.span-black {
+  color: black;
+  font-weight: 700; }
+
 .container {
   width: 85%;
   max-width: 1256px;
   margin: 0 auto; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 @font-face {
   font-family: 'Roboto';
@@ -413,7 +426,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
 .hero {
-  background: url("../../img/header/robot.jpg");
+  background: url("../img/header/robot.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -522,7 +535,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .precent__edit {
   z-index: 5;
-  position: relative; }
+  position: relative;
+  padding-bottom: 450px; }
 
 .hero__percent_row {
   position: absolute;
@@ -531,8 +545,7 @@ h1, h2, h3, h4, h5, h6, p {
   flex-direction: row;
   align-items: flex-end;
   float: left;
-  top: -165px;
-  padding-bottom: 150px; }
+  top: -165px; }
 
 .percent__left {
   padding-right: 240px; }
@@ -603,6 +616,140 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 300;
   font-family: "Roboto", sans-serif;
   max-width: 212px; }
+
+.precent__shape {
+  max-width: 1140px;
+  height: 1px;
+  background-color: #eaf1f7;
+  margin: 0 auto; }
+
+.creat-robot__main-title {
+  margin: 0 auto;
+  text-align: center; }
+
+.creat-robot {
+  padding-top: 100px; }
+
+.creat-robot__title {
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 42px;
+  color: #0f1c2e;
+  margin-bottom: 22px; }
+
+.creat-robot__subtitle {
+  margin: 0 auto;
+  color: #0f1c2e;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 65px; }
+
+.robot-2__title {
+  color: #0f1c2e;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  margin-bottom: 34px; }
+
+.robot-2__subtitle {
+  font-size: 16px;
+  color: #0f1c2e;
+  line-height: 24px; }
+
+.robot-2__left {
+  margin-top: -10px;
+  margin-left: -5px; }
+
+.robot-2__right {
+  display: flex;
+  flex-direction: column; }
+
+.robot-2__row {
+  display: flex;
+  font-display: row; }
+
+.robot-2__row_shape {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 13px 70px 13px 17px;
+  border: 1px solid #cfdeee;
+  border-radius: 4px;
+  margin-right: 33px; }
+
+.robot__shape_500 {
+  padding: 13px 45px 13px 17px; }
+
+.robot-2__row_text {
+  margin-right: 62px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #061826; }
+
+.flex-row {
+  justify-content: space-around; }
+
+.robot-2__row {
+  margin-bottom: 36px; }
+
+.shape-line {
+  width: 100%;
+  height: 1px;
+  background-color: #eaf1f7;
+  margin-bottom: 36px; }
+
+.creat-robot {
+  background: url("../img/header/bg-line-2.png") no-repeat center/cover; }
+
+.creat-robot__primary {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #fff;
+  padding: 15px 27px;
+  background-color: #0842b7;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px; }
+
+.creat-robot__button {
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 110px; }
+
+.start-learn {
+  background-image: radial-gradient(circle 677px at center, #03256c 0%, #061826 100%); }
+
+.start-learn__bg {
+  background: url("../img/header/start-lear-robot.png") no-repeat center/cover;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.start-learn__text {
+  text-align: center;
+  color: #fff;
+  font-weight: 700; }
+
+.start-learn__title {
+  font-size: 24px;
+  margin-bottom: 55px; }
+
+.text-blue {
+  color: #06bee1; }
+
+.start-learn__button {
+  padding: 16px 45px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  background: transparent;
+  text-transform: uppercase; }
 
 @media screen and (max-width: 1185px) {
   .header__ul_a {
@@ -797,7 +944,9 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: column;
     align-items: center; }
   .percent__right {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .precent__edit {
+    padding-bottom: 65px; } }
 
 @media screen and (max-width: 530px) {
   .percent__title_edit {
@@ -807,6 +956,59 @@ h1, h2, h3, h4, h5, h6, p {
   .hero__whyRobot {
     font-size: 25px;
     padding: 14px 14px 14px 14px; } }
+
+@media screen and (max-width: 1202px) {
+  .flex-row {
+    font-size: 13px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center; }
+  .robot-2__left {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 35px; } }
+
+@media screen and (max-width: 920px) {
+  .robot-2__row_shape {
+    padding: 13px 23px 14px 10px; }
+  .robot-2__row_text {
+    font-size: 11px; }
+  .robot-2__row_shape {
+    font-size: 14px;
+    padding: 16px 19px 18px 6px; } }
+
+@media screen and (max-width: 619px) {
+  .robot-2__row {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; }
+  .robot-2__row_text {
+    margin-bottom: 25px;
+    text-align: center;
+    margin-right: 0; }
+  .robot-2__row_shape {
+    width: 70px;
+    margin: 0; } }
+
+@media screen and (max-width: 575px) {
+  .creat-robot__title {
+    font-size: 30px; }
+  .creat-robot__subtitle {
+    font-size: 14px; } }
+
+@media screen and (max-width: 440px) {
+  .creat-robot__primary {
+    font-size: 12px; } }
+
+@media screen and (max-width: 560px) {
+  .start-learn__title {
+    font-size: 18px; }
+  .start-lern__button {
+    font-size: 13px; } }
+
+@media screen and (max-width: 405px) {
+  .start-learn__title {
+    font-size: 15px; } }
 
 body {
   font-family: "Roboto", sans-serif;

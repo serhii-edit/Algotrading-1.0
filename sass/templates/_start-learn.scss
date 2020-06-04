@@ -1,0 +1,41 @@
+
+.start-learn {
+  background-image: radial-gradient(circle 677px at center, #03256c 0%, #061826 100%);
+  // background: url("../img/header/start-lear-robot.png") no-repeat center/cover;
+}
+
+.start-learn__bg {
+  background: url("../img/header/start-lear-robot.png") no-repeat center/cover;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.start-learn__text {
+  text-align: center;
+  color: #fff;
+  // font-size: 19px;
+  font-weight: 700;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.start-learn__title {
+  font-size: 24px;
+  margin-bottom: 55px;
+}
+
+.text-blue {
+  color: #06bee1;
+}
+
+.start-learn__button {
+  padding: 16px 45px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  background: transparent;
+  text-transform: uppercase;
+}
