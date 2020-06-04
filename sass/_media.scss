@@ -390,3 +390,16 @@
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 1015px) {
+  .women-1__wrap {
+    width: 100%;
+  }
+  .women-1__video {
+    background-size: contain;
+  }
+}
+
+@media screen and  ( max-width: 540px ) {
+  
+}

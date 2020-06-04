@@ -1,0 +1,108 @@
+.women-1__text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.women-1__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #0f1c2e;
+  margin-bottom: 22px;
+}
+
+.women-1__subtitle {
+  max-width: 348px;
+  color: #061826;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.shape-h {
+  margin: 0 auto;
+  width: 2px;
+  height: 72px;
+  background-color: #b2b2b2;
+}
+
+.shape_h {
+  margin-bottom: 44px;
+}
+
+.shape_p {
+  height: 47px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.women-1__column {
+  margin-bottom: 11px;
+  color: #0f1c2e;
+  font-size: 24px;
+  font-weight: 300;
+}
+.shape-down_women {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.women-1__wrap {
+  width: 945px;
+  min-height: 387px;
+  margin-top: 79px;
+  margin-bottom: 72px;
+}
+
+.women-1__video {
+  position: relative;
+  // margin-top: 79px;
+  background: url("../img/gain/women-video.jpg") no-repeat center/cover;
+  width: 100%;
+  min-height: 387px;
+  // margin-bottom: 72px;
+}
+.women-1__play {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.women-1__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.women-1-footer__title {
+  color: #0f1c2e;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.women-1-footer__subtitle {
+  max-width: 563px;
+  color: #061826;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+
+.women-1-footer__button {
+  padding: 16px 39px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px;
+  background-color: #0842b7;
+  margin-bottom: 120px;
+}
