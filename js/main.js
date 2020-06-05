@@ -25,3 +25,36 @@ function burgerMenu(selector) {
 }
 
 burgerMenu(".burger-menu");
+
+var player;
+$(".women-1__play").on("click", function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '387',
+    width: '100%',
+    videoId: 'OPm_EDTrz7Y',
+    events: {
+      'onReady': videoPlayer,
+      // 'onStateChange': onPlayerStateChange
+    }
+  });
+});
+
+function videoPlayer(event) {
+  // player.videoPlayer();
+  event.target.playVideo();
+}
+
+$(document).ready(function () {
+  //initialize swiper when document ready
+
+
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    // direction: 'vertical',
+    
+    loop: true
+  })
+
+
+
+});

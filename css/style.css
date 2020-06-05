@@ -329,6 +329,18 @@ a {
   a:hover {
     color: black; }
 
+::selection {
+  background: #13b913;
+  color: #fff; }
+
+::-moz-selection {
+  background: #13b913;
+  color: #fff; }
+
+::-webkit-selection {
+  background: #13b913;
+  color: #fff; }
+
 .span-black {
   color: black;
   font-weight: 700; }
@@ -776,6 +788,17 @@ h1, h2, h3, h4, h5, h6, p {
   color: #0f1c2e;
   margin-bottom: 70px; }
 
+.swiper-container {
+  width: 300px;
+  height: 300px;
+  padding: 50px; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px; }
+
 .gain__wrap-phone {
   width: 526px;
   margin-top: -227px; }
@@ -859,7 +882,8 @@ h1, h2, h3, h4, h5, h6, p {
   bottom: 50%;
   margin: auto;
   max-width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  cursor: pointer; }
 
 .women-1__footer {
   display: flex;

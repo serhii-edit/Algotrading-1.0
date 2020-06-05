@@ -28,7 +28,14 @@ a {
   }
 }
 
+::selection {background: rgb(19, 185, 19); color: #fff}
+::-moz-selection {background: rgb(19, 185, 19); color: #fff}
+::-webkit-selection {background: rgb(19, 185, 19); color: #fff}
+
 .span-black {
   color: black;
   font-weight: 700;
 }
+
+
+
