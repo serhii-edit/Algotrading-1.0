@@ -777,7 +777,8 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 123px;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background: url("../img/gain/gain-bg-lines.png") no-repeat bottom/contain; }
 
 .gain__title {
   margin: 0;
@@ -799,26 +800,38 @@ h1, h2, h3, h4, h5, h6, p {
   width: 300px;
   height: 300px; }
 
-.gain__wrap-phone {
-  width: 526px;
-  margin-top: -227px; }
-
 .gain__phone {
-  position: relative;
-  background: url("../img/gain/gain-iphone.png") no-repeat center/cover;
-  width: 100%;
-  min-height: 860px;
-  box-shadow: -29px 52px 22px rgba(244, 248, 251, 0.68); }
+  width: 370px;
+  box-shadow: -1px -8px 45px 10px #f3f7fb; }
 
-.gain__bg__screen {
-  margin: 0 auto;
+.gain__phone-img {
+  background: url("../img/gain/gain-full-phone.png");
+  width: 100%;
+  min-height: 650px;
+  box-shadow: -1px -8px 45px 10px #f3f7fb;
+  position: relative; }
+
+.gain__inside-phone {
   position: absolute;
-  top: 310px;
-  left: 109px;
-  background: url("../img/gain/gain-phone-screen.jpg") no-repeat center/cover;
-  height: 550px;
-  width: 308px;
-  z-index: 100; }
+  top: 35%;
+  left: 30%;
+  bottom: 50%;
+  text-align: center; }
+
+.inside-phone__title {
+  margin-top: 52px;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 24px; }
+
+.inside-phone__subtitle {
+  margin: 0 auto;
+  width: 151px;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: 400; }
 
 .women-1__text {
   text-align: center;
@@ -914,6 +927,101 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 4px;
   background-color: #0842b7;
   margin-bottom: 120px; }
+
+.format-study__title {
+  margin: 0;
+  margin-top: 117px;
+  margin-bottom: 64px;
+  text-align: center;
+  color: #0f1c2e;
+  font-size: 36px;
+  font-weight: 300; }
+
+.format-study__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.format-study__blocks_margin {
+  margin-right: 30px; }
+
+.format-block__wrap {
+  width: 553px; }
+
+.format-study__img1 {
+  background: url("../img/format-study/format-study-block1.jpg") no-repeat center/cover;
+  width: 100%;
+  min-height: 370px;
+  position: relative;
+  margin-bottom: 66px; }
+
+.format-study__img2 {
+  background: url("../img/format-study/format-study-block2.jpg") no-repeat center/cover;
+  width: 100%;
+  min-height: 370px;
+  position: relative;
+  margin-bottom: 66px; }
+
+.format-block__text {
+  position: absolute;
+  left: 47px;
+  bottom: 43px; }
+
+.format-block__title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 184px;
+  margin-bottom: 22px; }
+
+.format-block__subtitle {
+  margin: 0;
+  color: #9AAABF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 193px; }
+
+.format-block__subtitle_width {
+  max-width: 271px; }
+
+.format-study__columns {
+  display: flex;
+  flex-direction: row;
+  max-width: 553px; }
+
+.format-columns__col_margin {
+  width: 50%;
+  vertical-align: top; }
+
+.format-columns__icon {
+  width: 98px;
+  height: 75px; }
+
+.format-columns__title {
+  margin-top: 42px;
+  margin-bottom: 32px;
+  color: #0f1c2e;
+  font-size: 24px;
+  font-weight: 700; }
+
+.format-columns__subtitle {
+  color: #061826;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.format-columns__subtitle-col1-p1 {
+  width: 199px; }
+
+.format-columns__subtitle-col1-p2 {
+  width: 249px; }
+
+.format-columns__subtitle-col2-p1 {
+  width: 252px; }
+
+.format-columns__subtitle-col2-p2 {
+  width: 256px; }
 
 @media screen and (max-width: 1185px) {
   .header__ul_a {
@@ -1182,20 +1290,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media screen and (max-width: 550px) {
   .gain__title {
-    font-size: 30px; }
-  .gain__phone {
-    background-size: cover; }
-  .gain__wrap-phone {
-    width: 359px; }
-  .gain__bg__screen {
-    left: 24px;
-    background-size: cover; } }
-
-@media screen and (max-width: 410px) {
-  .gain__phone {
-    background-size: contain; }
-  .gain__bg__screen {
-    background-size: contain; } }
+    font-size: 30px; } }
 
 body {
   font-family: "Roboto", sans-serif;

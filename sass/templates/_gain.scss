@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("../img/gain/gain-bg-lines.png") no-repeat bottom/contain;
 }
 
 .gain__title {
@@ -43,30 +44,42 @@
   height: 300px;
 }
 
-
-.gain__wrap-phone {
-  width: 526px;
-  margin-top: -227px;
-  // min-height: 860px;
-}
-
 .gain__phone {
-  position: relative;
-  background: url("../img/gain/gain-iphone.png") no-repeat center/cover;
+  width: 370px;
+  // min-height: 650px;
+  // box-shadow: -1px -10px 31px 25px rgba(235,242,248,1);
+  // box-shadow: -1px -10px 11px 10px rgba(235,242,248,1);
+  box-shadow: -1px -8px 45px 10px rgba(243,247,251, 1);
+}
+.gain__phone-img {
+  background: url("../img/gain/gain-full-phone.png");
   width: 100%;
-  min-height: 860px;
-  // margin-top: -227px;
-  // box-shadow: 0px 200px 47px 44px rgba(244,248,251,0.68);
-  box-shadow: -29px 52px 22px rgba(244, 248, 251, 0.68);
+  min-height: 650px;
+  box-shadow: -1px -8px 45px 10px rgba(243,247,251, 1);
+  position: relative;
 }
 
-.gain__bg__screen {
-  margin: 0 auto;
+.gain__inside-phone {
   position: absolute;
-  top: 310px;
-  left: 109px;
-  background: url("../img/gain/gain-phone-screen.jpg") no-repeat center/cover;
-  height: 550px;
-  width: 308px;
-  z-index: 100;
+  top: 35%;
+  left: 30%;
+  bottom: 50%;
+  text-align: center;
+}
+
+.inside-phone__title {
+  margin-top: 52px;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.inside-phone__subtitle {
+  margin: 0 auto;
+  width: 151px;
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  font-weight: 400;
 }
