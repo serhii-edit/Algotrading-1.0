@@ -1,0 +1,48 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 373px !important;
+  height: 643px !important;
+  padding: 0 !important;
+}
+
+.swiper-slide {
+  width: 374px !important;
+  height: 640px !important;
+  background-color: #e4edf6 !important;
+  box-shadow:  2px 27px 43px rgb(236, 243, 249); 
+
+  // box-shadow: -1px 10px 61px 33px rgba(243,247,251,1) !important;
+}
+
+.swiper-button-next {
+  background: url("../../img/gain/next-arrow-phone.png") no-repeat center;
+  width: 55px;
+}
+
+.swiper-button-prev {
+  width: 55px;
+  background: url("../../img/gain/prev-arrow-phone.png") no-repeat center;
+}
