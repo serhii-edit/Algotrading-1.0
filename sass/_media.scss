@@ -511,7 +511,10 @@
     font-size: 13px;
     width: 135px;
   }
-  .how-looks {
-    // padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1110px) {
+  .gain__phone-img {
+    background-size: contain;
   }
 }

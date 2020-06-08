@@ -1,0 +1,142 @@
+.large-slider__col_margin {
+  margin-right: 147px;
+}
+
+.large-slider__content {
+  display: flex;
+  flex-direction: row;
+}
+
+.large-slider_bg {
+  background: url("../img/large-slider/large-slider.jpg") no-repeat center/cover;
+  max-width: 2100px;
+  min-height: 864px;
+  width: 100%;
+}
+
+.large-slider__content {
+  color: #fff;
+}
+
+.large-slider__content_margin {
+  padding-top: 117px;
+}
+
+.large-slider__col {
+  max-width: 440px;
+  margin-bottom: 94px;
+}
+
+
+.slider-col__lesson {
+  margin-bottom: 70px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.slider-col__ol {
+  padding-left: 19px;
+}
+
+.slider-col__ol_margin {
+  margin-bottom: 48px;
+}
+
+.slider-col__title {
+  margin-bottom: 31px;
+  font-size: 23px;
+}
+
+.slider-col__li {
+  color: #68799a;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  line-height: 22px;
+  padding-left: 9px;
+}
+
+.slider-col__li_text {
+  text-transform: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.large-slider__last-subtitle_width {
+  padding-left: 25px;
+  width: 415px;
+  font-size: 16px;
+  color: #68799a;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+// col (2) (down)
+
+
+.slider-col__title_col-2 {
+  margin-bottom: 37px; 
+  // line-height: 20px; 
+}
+.slider-col__li_text_col-2 {
+  font-size: 17px;
+}
+
+.slider-col__number-of-lesson {
+  color: #68799a;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 53px;
+  margin-bottom: 91px;
+}
+
+.slider-col__shape {
+  height: 1px;
+  background-color: #26556c;
+  opacity: 0.5;
+  margin-bottom: 74px;
+}
+
+.large-slider__last_subtitle-bonus {
+  display: flex;
+  flex-direction: row;
+}
+
+.large-slider__bonus {
+  width: 64px;
+  height: 55px;
+  // font-size: 24px;
+  // font-weight: 700;
+  // margin-bottom: 28px;
+}
+
+.large-slider__title-bonus {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.large-slider__links {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.large-slider__button {
+  text-align: center;
+  text-align: center;
+  color: #fff;
+  margin-right: 30px;
+  padding: 18px 52px;
+  text-align: center;
+}
+
+.large-slider__button-outline {
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
