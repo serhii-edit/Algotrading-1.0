@@ -1,0 +1,79 @@
+.cost-learn {
+  padding-bottom: 120px;
+}
+
+.set-title-center {
+  color: #0f1c2e;
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 118px;
+  margin-bottom: 21px;
+}
+
+.cost-learn__subtitle {
+  margin-top: 0;
+  padding-top: 0;
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 74px;
+}
+
+.cost-learn__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cost-learn__col {
+  border-right: 1px solid #eaf1f7;
+  min-height: 386px;
+  padding-right: 110px;
+  margin-right: 89px;
+  position: relative;
+}
+
+.cost-learn__col:last-child {
+  border-right: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.cost-content__title {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700; 
+  margin-bottom: 20px;
+}
+
+.cost-content__price {
+  color: #06bee1;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+
+.cost-content__info {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.cost-content__buy {
+  // position: absolute;
+  text-transform: uppercase;
+  padding: 18px 50px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 17px;
+  color: #0842b7;
+  border: 1px solid #0842b7;
+  border-radius: 4px;
+  // bottom: 0;
+  text-align: center;
+}

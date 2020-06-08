@@ -518,3 +518,74 @@
     background-size: contain;
   }
 }
+
+// benefits
+
+@media screen and (max-width: 920px) {
+  .benefits-content__top {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits-content__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits-content__block {
+    margin-right: 0;
+    margin: 0 auto;
+  } 
+}
+
+@media screen and (max-width: 419px) {
+  .benefits-course__title {
+    padding-top: 60px;
+    font-size: 25px;
+  }
+  .benefots-content__col__subtitle {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .cost-learn__col {
+    padding-right: 45px;
+    margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .cost-learn__col {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: unset;
+    border-top: 1px solid #eaf1f7;
+    padding-top: 20px;
+  }
+  .cost-learn__content {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+  }
+  .cost-content__info {
+    margin-bottom: 25px;
+  }
+  .cost-content__buy {
+    display: inline-block;
+    margin-bottom: 35px;
+  }
+  .cost-learn {
+    padding-bottom: 70px;
+  }
+  .cost-learn__subtitle {
+    // width: 319px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cost-learn__title {
+    font-size: 25px;
+  }
+  .cost-learn__subtitle {
+    font-size: 14px;
+  }
+}

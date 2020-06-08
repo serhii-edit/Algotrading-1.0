@@ -37,5 +37,26 @@ a {
   font-weight: 700;
 }
 
+.set-title-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.set-subtitle-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.set-text-bold {
+  font-weight: 700;
+  color: #000;
+}
+
+.set-text-center {
+  text-align: center;
+}
 
 
+.swiper-container {
+  display: none;
+}

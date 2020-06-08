@@ -346,6 +346,24 @@ a {
   color: black;
   font-weight: 700; }
 
+.set-title-center {
+  margin: 0 auto;
+  text-align: center; }
+
+.set-subtitle-center {
+  margin: 0 auto;
+  text-align: center; }
+
+.set-text-bold {
+  font-weight: 700;
+  color: #000; }
+
+.set-text-center {
+  text-align: center; }
+
+.swiper-container {
+  display: none; }
+
 .container {
   width: 85%;
   max-width: 1256px;
@@ -1132,7 +1150,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .large-slider__col {
   max-width: 440px;
-  margin-bottom: 94px; }
+  margin-bottom: 47px; }
 
 .slider-col__lesson {
   margin-bottom: 70px;
@@ -1223,6 +1241,158 @@ h1, h2, h3, h4, h5, h6, p {
 .large-slider__button-outline {
   border-radius: 4px;
   border: 1px solid #fff; }
+
+.swiper-pagination-bullet {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  color: #68799a;
+  opacity: 1;
+  font-weight: 300;
+  position: relative;
+  line-height: 35px;
+  background: transparent; }
+
+.swiper-pagination-bullet-active {
+  background-color: #06bee1;
+  color: #fff;
+  opacity: 1; }
+
+.swiper-container-2 {
+  max-width: 970px;
+  height: 700px; }
+
+.swiper-slide-active {
+  max-width: 975px;
+  height: 700px; }
+
+.benefits-course {
+  width: 100%;
+  min-height: 791px;
+  background-color: #EAF1F7; }
+
+.benefits-course__title {
+  padding-top: 118px;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #0f1c2e;
+  font-size: 36px;
+  font-weight: 300; }
+
+.benefits-content__title {
+  text-align: center;
+  color: #0f1c2e;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px; }
+
+.benefits-content__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.benefits-content__block {
+  margin-right: 141px; }
+
+.benefits-content__block:last-child {
+  margin-right: 0; }
+
+.benefits-content__bottom {
+  display: flex;
+  flex-direction: row; }
+
+.benefits-content__top {
+  display: flex;
+  flex-direction: row; }
+
+.benefits-content__col {
+  vertical-align: top;
+  text-align: center;
+  max-width: 244px; }
+
+.benefits-content__col img {
+  margin-bottom: 12px; }
+
+.benefits-content__col__title {
+  color: #061826;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px; }
+
+.benefots-content__col__subtitle {
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 80px; }
+
+.cost-learn {
+  padding-bottom: 120px; }
+
+.set-title-center {
+  color: #0f1c2e;
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 118px;
+  margin-bottom: 21px; }
+
+.cost-learn__subtitle {
+  margin-top: 0;
+  padding-top: 0;
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 74px; }
+
+.cost-learn__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.cost-learn__col {
+  border-right: 1px solid #eaf1f7;
+  min-height: 386px;
+  padding-right: 110px;
+  margin-right: 89px;
+  position: relative; }
+
+.cost-learn__col:last-child {
+  border-right: 0;
+  padding-right: 0;
+  margin-right: 0; }
+
+.cost-content__title {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+.cost-content__price {
+  color: #06bee1;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 38px; }
+
+.cost-content__info {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px; }
+
+.cost-content__buy {
+  text-transform: uppercase;
+  padding: 18px 50px;
+  background: transparent;
+  font-weight: 700;
+  font-size: 17px;
+  color: #0842b7;
+  border: 1px solid #0842b7;
+  border-radius: 4px;
+  text-align: center; }
 
 @media screen and (max-width: 1185px) {
   .header__ul_a {
@@ -1568,6 +1738,54 @@ h1, h2, h3, h4, h5, h6, p {
 @media screen and (max-width: 1110px) {
   .gain__phone-img {
     background-size: contain; } }
+
+@media screen and (max-width: 920px) {
+  .benefits-content__top {
+    display: flex;
+    flex-direction: column; }
+  .benefits-content__bottom {
+    display: flex;
+    flex-direction: column; }
+  .benefits-content__block {
+    margin-right: 0;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 419px) {
+  .benefits-course__title {
+    padding-top: 60px;
+    font-size: 25px; }
+  .benefots-content__col__subtitle {
+    margin-bottom: 50px; } }
+
+@media screen and (max-width: 1170px) {
+  .cost-learn__col {
+    padding-right: 45px;
+    margin-right: 45px; } }
+
+@media screen and (max-width: 920px) {
+  .cost-learn__col {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: unset;
+    border-top: 1px solid #eaf1f7;
+    padding-top: 20px; }
+  .cost-learn__content {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center; }
+  .cost-content__info {
+    margin-bottom: 25px; }
+  .cost-content__buy {
+    display: inline-block;
+    margin-bottom: 35px; }
+  .cost-learn {
+    padding-bottom: 70px; } }
+
+@media screen and (max-width: 500px) {
+  .cost-learn__title {
+    font-size: 25px; }
+  .cost-learn__subtitle {
+    font-size: 14px; } }
 
 body {
   font-family: "Roboto", sans-serif;
