@@ -589,3 +589,35 @@
     font-size: 14px;
   }
 }
+
+// Start form 
+@media screen and (max-width: 480px) {
+  .start-form__title {
+    width: 320px;
+    font-size: 18px;
+  }
+  .start-form__subtitle {
+    max-width: 315px;
+    font-size: 14px;
+  }
+  .form-free__input, .form-free__button {
+    max-width: 303px
+  }
+  .form-free__button {
+    font-size: 11px;
+  }
+  .form-free__input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .start-form__title {
+    width: 275px;
+    font-size: 16px;
+  }
+  .start-form__subtitle {
+    max-width: 270px;
+    font-size: 13px;
+  }
+}

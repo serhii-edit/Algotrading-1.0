@@ -1394,6 +1394,65 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 4px;
   text-align: center; }
 
+.start-form_bg {
+  background: url("../img/start-learning.png") no-repeat center/cover;
+  width: 100%;
+  min-height: 698px; }
+
+.start-form__title {
+  margin-top: 128px;
+  max-width: 408px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+.start-form__subtitle {
+  max-width: 416px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 41px; }
+
+.form-free {
+  display: flex;
+  justify-content: center; }
+
+.form-free__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.form-free__input-block {
+  margin-bottom: 25px; }
+
+.form-free__input {
+  width: 359px;
+  height: 48px;
+  border: unset;
+  border-radius: 4px;
+  background-color: #ffffff; }
+
+.form-free__input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 300; }
+
+.form-free__input[type=email], [type=tel], [type=text] {
+  padding-left: 17px; }
+
+.form-free__button {
+  border: unset;
+  padding: 18px 100px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px;
+  background-color: #0842b7; }
+
 @media screen and (max-width: 1185px) {
   .header__ul_a {
     margin-right: 65px; } }
@@ -1786,6 +1845,28 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 25px; }
   .cost-learn__subtitle {
     font-size: 14px; } }
+
+@media screen and (max-width: 480px) {
+  .start-form__title {
+    width: 320px;
+    font-size: 18px; }
+  .start-form__subtitle {
+    max-width: 315px;
+    font-size: 14px; }
+  .form-free__input, .form-free__button {
+    max-width: 303px; }
+  .form-free__button {
+    font-size: 11px; }
+  .form-free__input::placeholder {
+    font-size: 16px; } }
+
+@media screen and (max-width: 380px) {
+  .start-form__title {
+    width: 275px;
+    font-size: 16px; }
+  .start-form__subtitle {
+    max-width: 270px;
+    font-size: 13px; } }
 
 body {
   font-family: "Roboto", sans-serif;
