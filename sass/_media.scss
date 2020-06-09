@@ -588,6 +588,11 @@
   .cost-learn__subtitle {
     font-size: 14px;
   }
+
+  .women-2__under-subtitle {
+    font-size: 13px;
+  }
+
 }
 
 // Start form 
@@ -619,5 +624,123 @@
   .start-form__subtitle {
     max-width: 270px;
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .women-2__title {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .women-2__video {
+    min-height: 161px;
+  }
+  .women-2__under-title {
+    margin-top: 25px;
+  }
+}
+
+// @media screen and (max-width: 1040px) {
+//   .women-2__wrap {
+//     width: 85%;
+//   }
+// }
+
+// result-student
+
+@media screen and (max-width: 1240px) {
+  // .result-student__title {
+  //   width: 265px;
+  // }
+  .result-student__block-1 {
+    margin-right: 30px;
+  }
+  .result-student__col {
+    margin-right: 55px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .result-student__block-1 {
+    margin-right: 25px;
+  }
+  .result-student__col {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .result-student__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .result-student__subtitle {
+    margin: 0 auto;
+  }
+
+  .result-student__block-1 {
+    margin-right: 0;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .result-student__col {
+    margin-right: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .result-student__block-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .result-student__col {
+    margin-right: 0;
+    margin-bottom: 75px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #eaf1f7;
+    border-right: 1px solid #eaf1f7;
+  }
+  .result-student__col:last-child {
+    margin-bottom: 0;
+  }
+  .result-student__bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .start-learn__title {
+    font-size: 19px;
+  }
+  .cash-back__button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .cash-back__title {
+    padding-bottom: 30px;
+  }
+  .cash-back__button {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .cash-back {
+    background-size: cover;
+  }
+  .cash-back__title {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .cash-back__button {
+    padding: 18px 15px;
+    font-size: 9px;
   }
 }

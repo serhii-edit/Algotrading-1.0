@@ -1,0 +1,26 @@
+.cash-back {
+  background: url("../img/cash-back.png") no-repeat center/contain;
+  min-height: 432px;
+  // height: 432px;
+  position: relative;
+}
+
+.cash-back__title {
+  // position: absolute;
+  width: 280px;
+  margin: 0 auto;
+  // top: 123px;
+  // bottom: auto;
+  // left: 40%;
+  // right: auto;
+  padding-bottom: 50px;
+}
+
+.cash-back__button {
+  border: unset;
+  box-shadow: 0 12px 24px rgba(6, 57, 158, 0.32);
+  border-radius: 4px;
+  background-color: #0842b7;
+  padding: 18px 40px;
+  font-size: 17px;
+}
