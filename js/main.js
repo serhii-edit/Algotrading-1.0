@@ -57,6 +57,34 @@ function videoPlayer(event) {
   event.target.playVideo();
 }
 
+let modal = document.querySelector(".modal__visible");
+let openModal = document.getElementById("open-btn");
+var openModalS = document.querySelector(".open-btn");
+let modalClose = document.getElementById("close-btn");
+
+openModal.onclick = function () {
+  modal.style.visibility="visible";
+}
+
+openModalS.onclick = function () {
+  modal.style.visibility="visible";
+}
+
+modalClose.onclick = function () {
+  modal.style.visibility="hidden";
+}
+
+window.onclick = function (event) {
+  if (event.target == modal)
+  modal.style.visibility="hidden";
+};
+
+window.onkeydown = function(event) {
+  if (event.which == 27) {
+    modal.style.visibility="hidden";
+  }
+};
+
 $(document).ready(function () {
   //initialize swiper when document ready
 

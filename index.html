@@ -97,7 +97,7 @@
 
         <div class="hero-info__row hero-info__row_edit">
           <div class="hero-info__buttons hero-buttons">
-            <a href="#" class="hero-buttons_primary">
+            <a href="#" class="hero-buttons_primary" id="open-btn">
               Начать обучение
             </a>
             <a href="#" class="hero-buttons_outline">
@@ -1036,9 +1036,9 @@
               Тех.поддержка<br><br>
             </p>
 
-            <a href="#" class="cost-content__buy">
+            <span href="#" class="cost-content__buy open-btn">
               КУПИТЬ
-            </a>
+            </span>
           </div>
           <!-- /.cost-learn__col -->
           <div class="cost-learn__col set-text-center">
@@ -1055,9 +1055,9 @@
               Практика<br><br><br>
             </p>
 
-            <a href="#" class="cost-content__buy">
+            <span href="#" class="cost-content__buy open-btn">
               КУПИТЬ
-            </a>
+            </span>
           </div>
           <!-- /.cost-learn__col -->
           <div class="cost-learn__col set-text-center">
@@ -1075,9 +1075,9 @@
               Максимум практики<br><br>
             </p>
 
-            <a href="#" class="cost-content__buy">
+            <span href="#" class="cost-content__buy open-btn">
               КУПИТЬ
-            </a>
+            </span>
           </div>
           <!-- /.cost-learn__col -->
         </div>
@@ -1423,6 +1423,69 @@
       <!-- /.container -->
     </section>
     <!-- /.footer -->
+
+    <div class="modal modal__visible" id="modal">
+
+      <div class="modal__dialog">
+        <span class="close-btn" id="close-btn">
+          &times;
+        </span>
+        <h3 class="modal__title">
+          Оставьте заявку и наш менеджер свяжется с вами
+        </h3>
+
+        <form action="send.php" method="POST" class="modal-form">
+          <div class="modal__input-group">
+            <label for="modal-name" class="modal__label">
+              Имя
+            </label>
+            <input type="text" id="modal-name" name="userName" placeholder="Как вас зовут:" class="modal__input">
+          </div>
+          <!-- /.modal__input-group -->
+          <div class="modal__input-group">
+            <label for="modal-phone" class="modal__label">
+              Телефон
+            </label>
+            <input type="tel" id="modal-phone" name="userPhone" placeholder="Ваш номер телефона:" class="modal__input">
+          </div>
+          <!-- /.modal__input-group -->
+          <div class="modal__input-group">
+            <label for="modal-email" class="modal__label">
+              Email
+            </label>
+            <input type="email" id="modal-email" name="userEmail" placeholder="Ваш Email" class="modal__input">
+          </div>
+          <!-- /.modal__input-group -->
+          <div class="modal__input-group modal__checkbox-group">
+
+          <div class="modal__input-wrap">
+            <input type="radio" class="modal__checkbox" id="modal-gold" name="modal-checkbox" value="Gold">
+            <label class="modal__checkbox-label" name="Gold" for="modal-gold">Gold</label>
+          </div>
+
+          <div class="modal__input-wrap">
+            <input type="radio" class="modal__checkbox" id="modal-premium" name="modal-checkbox" value="Premium">
+            <label class="modal__checkbox-label" name="Premium" for="modal-premium">Premium</label>
+          </div>
+
+          <div class="modal__input-wrap">
+            <input type="radio" class="modal__checkbox" id="modal-vip" name="modal-checkbox" value="Vip">
+            <label class="modal__checkbox-label" name="Vip" for="modal-vip">Vip</label>
+          </div>
+
+          </div>
+
+          <div class="modal__policy-wrap">
+            <input type="checkbox" class="modal__checkbox modal__policy-input" id="modal-policy" name="modal-policy" value="Policy">
+            <label class="modal__checkbox-label modal__policy-label" for="modal-policy">
+              Я соглашаюсь с обработкой данных
+            </label>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+    <!-- /.modal -->
 
   </main>
   <!-- /.main -->

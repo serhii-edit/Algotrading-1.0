@@ -759,6 +759,7 @@
   .question-form {
     min-height: unset;
     height: unset;
+    padding-bottom: 120px;
   }
   .question-form__wrap {
     flex-direction: column;
@@ -836,5 +837,20 @@
 @media screen and (max-width: 366px) {
   .footer__icons-img {
     margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .modal__dialog {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .modal__dialog {
+    max-width: 310px;
+  }
+  .modal__title {
+    font-size: 15px;
   }
 }
