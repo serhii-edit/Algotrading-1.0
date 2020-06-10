@@ -1,0 +1,26 @@
+.question-form {
+  max-width: 2100px;
+  min-height: 423px;
+  height: 423px;
+  background-image: radial-gradient(circle 698px at center, #03256c 0%, #061826 100%);
+}
+
+.question-form__wrap {
+  flex-direction: row;
+}
+
+.question-form__input {
+  width: 263px;
+}
+
+.question-form__input-block {
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.question-form__button {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 16px 42px;
+}
