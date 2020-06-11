@@ -1100,17 +1100,17 @@
           Убедитесь сами!
         </p>
 
-        <form action="" class="start-form form-free">
+        <form action="send.php" method="POST" class="start-form form-free">
           <div class="form-free__wrap">
 
             <div class="form-free__input-block">
-              <input class="form-free__input" type="text" placeholder="Имя">
+              <input class="form-free__input" type="text" name="userName" placeholder="Имя">
             </div>
             <div class="form-free__input-block">
-              <input class="form-free__input" type="tel" placeholder="Телефон">
+              <input class="form-free__input" type="tel" name="userPhone" placeholder="Телефон">
             </div>
             <div class="form-free__input-block">
-              <input class="form-free__input" type="email" placeholder="Email">
+              <input class="form-free__input" type="email" name="userEmail" placeholder="Email">
             </div>
 
             <button class="form-free__button">
@@ -1320,20 +1320,20 @@
           в самое ближайшее время
         </p>
 
-        <form action="" class="start-form form-free question-form__form">
+        <form action="send.php" method="POST" class="start-form form-free question-form__form">
           <div class="form-free__wrap question-form__wrap">
 
             <div class="form-free__input-block question-form__input-block">
               <input class="form-free__input 
-              question-form__input" type="text" placeholder="Имя">
+              question-form__input" type="text" name="userName" placeholder="Имя">
             </div>
             <div class="form-free__input-block question-form__input-block">
               <input class="form-free__input 
-              question-form__input" type="tel" placeholder="Телефон">
+              question-form__input" type="tel" name="userPhone" placeholder="Телефон">
             </div>
             <div class="form-free__input-block question-form__input-block">
               <input class="form-free__input 
-              question-form__input" type="email" placeholder="Email">
+              question-form__input" type="email" name="userEmail" placeholder="Email">
             </div>
 
             <button class="form-free__button question-form__button">
