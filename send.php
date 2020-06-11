@@ -3,10 +3,9 @@
   $userName = $_POST["userName"];
   $userPhone = $_POST["userPhone"];
   $userEmail = $_POST["userEmail"];
-
+  $userEmailsender = $_POST["userEmailsender"];
 
   $type = $_POST["type"];
-
   $Policy = $_POST["Policy"];
 
 // Load Composer's autoloader
@@ -37,6 +36,7 @@ require 'phpmailer/SMTP.php';
     User-Phone-Number: ${userPhone}, <br>
     His(Her) User-Email: ${userEmail}, <br> 
     User-Type: ${type}, <br>
+    User-Email-Sender: ${userEmailsender}, <br>
     Approved the: ${Policy}, <br> ";
 
     if ($mail->send()) {

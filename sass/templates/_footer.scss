@@ -81,11 +81,19 @@
 }
 
 .footer__input-mail {
+  border: unset;
   position: absolute;
   right: 40px;
   top: 10px;
   background: url("../img/input-mail.png") no-repeat center/contain;
   width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footer__input-mail:hover {
+  width: 23px;
   height: 25px;
 }
 

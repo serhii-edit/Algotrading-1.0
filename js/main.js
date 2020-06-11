@@ -99,5 +99,15 @@ $(document).ready(function () {
   // });
 
 
+  jQuery(document).ready(function($){
+    $.iMissYou({
+        title: "I Miss you!",
+        favicon: {
+            enabled: true,
+            src:'../img/i-miss-you.png'
+        }
+    });
+});
+
 
 });

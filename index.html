@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/main-favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/style.css">
   
@@ -1385,11 +1386,14 @@
           </div>
 
           <div class="footer__email-sender">
-            <input class="form-free__input 
-              question-form__input footer__end-input" type="email" placeholder="E-mail рассылка">
-            <div class="footer__input-mail">
 
-            </div>
+          <form action="send.php" method="POST" class="footer__form">
+            <input class="form-free__input 
+              question-form__input footer__end-input" type="email" name="userEmailsender" placeholder="E-mail рассылка">
+            <button class="footer__input-mail"></button>
+          </form>
+
+
             <div class="footer__icons">
             <a href="" class="footer__icons-a">
               <img src="img/icons/facebook.png" alt="" class="footer__icons-img">
@@ -1536,6 +1540,8 @@
     },
   })
   </script>
+
+  <script src="js/jquery.iMissYou.min.js"></script>
 
   <script src="js/main.js">
   </script>
