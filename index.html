@@ -1321,7 +1321,8 @@
           в самое ближайшее время
         </p>
 
-        <form action="send.php" method="POST" class="start-form form-free question-form__form">
+        <!-- action="send.php" -->
+        <form action="telegram.php" method="POST" class="start-form form-free question-form__form">
           <div class="form-free__wrap question-form__wrap">
 
             <div class="form-free__input-block question-form__input-block">
@@ -1387,7 +1388,8 @@
 
           <div class="footer__email-sender">
 
-          <form action="send.php" method="POST" class="footer__form">
+            <!-- action="send.php" -->
+          <form action="telegram.php" method="POST" class="footer__form">
             <input class="form-free__input 
               question-form__input footer__end-input" type="email" name="userEmailsender" placeholder="E-mail рассылка">
             <button class="footer__input-mail"></button>
@@ -1438,7 +1440,8 @@
           Оставьте заявку и наш менеджер свяжется с вами
         </h3>
 
-        <form action="send.php" method="POST" class="modal-form">
+        <!-- action="send.php" -->
+        <form action="telegram.php" method="POST" class="modal-form">
           <div class="modal__input-group">
             <label for="modal-name" class="modal__label">
               Имя
@@ -1480,7 +1483,7 @@
           </div>
 
           <div class="modal__policy-wrap">
-            <input type="checkbox" class="modal__checkbox modal__policy-input" id="modal-policy" name="Policy" value="Policy agree">
+            <input checked type="checkbox" class="modal__checkbox modal__policy-input" id="modal-policy" name="Policy" value="Policy agree">
             <label class="modal__checkbox-label modal__policy-label" for="modal-policy" checked>
               Я соглашаюсь с обработкой данных
             </label>
