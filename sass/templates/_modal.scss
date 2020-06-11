@@ -82,6 +82,7 @@
   color: #fff;
   font-weight: 500;
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .modal__input::placeholder {
@@ -182,4 +183,8 @@
   border: unset;
   background: #00A861;
   color: #fff;
+}
+
+.input-error {
+  color: tomato;
 }

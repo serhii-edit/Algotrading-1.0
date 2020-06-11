@@ -1790,7 +1790,8 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 10px 5px;
   color: #fff;
   font-weight: 500;
-  font-size: 15px; }
+  font-size: 15px;
+  margin-bottom: 10px; }
 
 .modal__input::placeholder {
   color: #fff; }
@@ -1873,6 +1874,9 @@ h1, h2, h3, h4, h5, h6, p {
   border: unset;
   background: #00A861;
   color: #fff; }
+
+.input-error {
+  color: tomato; }
 
 @media screen and (max-width: 1185px) {
   .header__ul_a {

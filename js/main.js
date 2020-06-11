@@ -109,5 +109,30 @@ $(document).ready(function () {
     });
 });
 
+$(".modal-form").validate({
+  
+  $("#myform").validate({
+    errorClass: "input-error",
+  }),
+
+  rules: {
+    // simple rule, converted to {required:true}
+    userName: "required",
+    userPhone: "required",
+    // compound rule
+    userEmail: {
+      required: true,
+      email: true
+    }
+  },
+  messages: {
+    userName: "Name required!",
+    userEmail: {
+      required: "Be sure to specify the mail",
+      email: "Type in format: name@mail.com"
+    }
+  }
+});
+
 
 });
