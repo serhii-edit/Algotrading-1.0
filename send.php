@@ -5,19 +5,17 @@
   $userEmail = $_POST["userEmail"];
 
 
-  $typeGold = $_POST["Gold"];
-  $typePremium = $_POST["Premium"];
-  $typeVip = $_POST["Vip"];
+  $type = $_POST["type"];
+
+  $Policy = $_POST["Policy"];
 
 // Load Composer's autoloader
 require 'phpmailer/Exception.php';
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/SMTP.php';
 
-// Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer\PHPMailer\PHPMailer();
-
-try {
+    // Instantiation and passing `true` enables exceptions
+    $mail = new PHPMailer\PHPMailer\PHPMailer();
     //Server settings
     $mail->SMTPDebug = 0;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
@@ -35,19 +33,14 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'New check-in from site';
-    $mail->Body    = "User-Name: ${userName},<br>
+    $mail->Body    = "User-Name: ${userName}, <br>
     User-Phone-Number: ${userPhone}, <br>
-    His(Her) User-Email: ${userEmail} <br> 
-    User-Type: ${typeGold} <br> 
-    User-Type: ${typePremium} <br> 
-    User-Type: ${typeVip} <br> ";
+    His(Her) User-Email: ${userEmail}, <br> 
+    User-Type: ${type}, <br>
+    Approved the: ${Policy}, <br> ";
 
     if ($mail->send()) {
       echo "ok";
     } else {
       echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
-    
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-}

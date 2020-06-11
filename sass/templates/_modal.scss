@@ -144,9 +144,11 @@
   border-radius: unset;
   width: 23px;
   height: 23px;
+  transition: all 0.4s;
 }
 
 .modal__policy-input:checked + .modal__policy-label::before {
+  transition: all 0.4s;
   background: url("../img/lock.svg") no-repeat center/cover;
   width: 23px;
   height: 23px;
@@ -158,4 +160,26 @@
   font-size: 15px;
   vertical-align: middle;
   font-weight: 400;
+}
+
+.modal__submit {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.modal__submit-button {
+  border: unset;
+  background: unset;
+  color: #00A861;
+  border: 1px solid #00A861;
+  font-size: 15px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.modal__submit-button:hover {
+  border: unset;
+  background: #00A861;
+  color: #fff;
 }
