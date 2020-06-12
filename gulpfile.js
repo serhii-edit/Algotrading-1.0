@@ -67,11 +67,11 @@ function php(done) {
   .pipe(dest("dist/phpmailer/"))
   done();
 }
-function img(done) {
-  src("img/**/**")
-  .pipe(dest("dist/img/"))
-  done();
-}
+// function img(done) {
+//   src("img/**/**")
+//   .pipe(dest("dist/img/"))
+//   done();
+// }
 
 function imgmin(done) {
   src("img/**/**")
@@ -84,4 +84,4 @@ function imgmin(done) {
 }
 
 exports.serve = bs;
-exports.minifyf = series(buildCSS, buildJS, html, php, fonts, img, imgmin);
+exports.minifyf = series(buildCSS, buildJS, html, php, fonts, imgmin);
