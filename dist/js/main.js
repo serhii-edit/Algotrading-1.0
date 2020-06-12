@@ -1,1 +1,351 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 2d(2l){b s=$(2l)b 2k=s.1E(".F-31");b 2j=s.1E(".30");b 2i=s.1E(".F-2Z");2k.j("u",(e)=>{e.1I();1s()});2j.j("u",()=>1s());2i.j("u",()=>1s());4 1s(){s.2Y("F-2h");H(s.2X("F-2h")){$("2g").2f("2e","n")}1J{$("2g").2f("2e","D")}}}2d(".F-s");1u 1D;$(".2c-2W").j("u",4 2b(){1D=29 28.26(\'1D\',{25:\'23\',22:\'21%\',20:\'1Z\',1Y:{\'1X\':1C,}})});1u 2a;$(".2c-2V").j("u",4 2b(){2a=29 28.26(\'2U\',{25:\'23\',22:\'21%\',20:\'1Z\',1Y:{\'1X\':1C,}})});4 1C(B){B.1Q.2T()}b 7=r.1W(".2S");b 1V=r.1q("1r-E");b 1U=r.1W(".1r-E");b 1S=r.1q("1r-E-2R")b 1T=r.1q("1r-E-2Q")b 1R=r.1q("2P-E");1V.C=4(){7.d.c="D"};1U.C=4(){7.d.c="D"};1T.C=4(){7.d.c="D"};1S.C=4(){7.d.c="D"};1R.C=4(){7.d.c="n"};1t.C=4(B){H(B.1Q==7)7.d.c="n"};1t.2O=4(B){H(B.2N==27){7.d.c="n"}};$(r).1P(4(){2M(r).1P(4($){$.2L({2K:"I 2J w!",2I:{2H:6,2G:\'../2F/i-2E-w.2D\'}})});$(".7-3").1p({1o:"3-m",1n:{A:{5:6,9:2,h:15},q:{5:6,p:6},x:{5:6,h:17,9:17},},1m:{A:{5:"g 5",9:"g z 1B y 2",h:"g z 1A y 15"},x:{5:"1z 5!",9:"1y 1x a 1w 1v"},q:{5:"1l 1k f 1j 1i o",p:"1h 1g 1f: 1e@o.1d"},},1c:4(3){$.1b({v:"1a",19:"../18.16",14:$(3).13(),12:4(8){l("k 3 11 10 Z. Y X W w V 24 U.");$(3)[0].T();7.d.c="n"},m:4(8){l("S. k 3 R\'t Q P O f N M L K 3 J"+8)}})}});$(".3-2C").1p({1o:"3-m",1n:{A:{5:6,9:2,h:15},q:{5:6,p:6},x:{5:6,h:17,9:17},},1m:{A:{5:"g 5",9:"g z 1B y 2",h:"g z 1A y 15"},x:{5:"1z 5!",9:"1y 1x a 1w 1v"},q:{5:"1l 1k f 1j 1i o",p:"1h 1g 1f: 1e@o.1d"},},1c:4(3){$.1b({v:"1a",19:"../18.16",14:$(3).13(),12:4(8){l("k 3 11 10 Z. Y X W w V 24 U.");$(3)[0].T();7.d.c="n"},m:4(8){l("S. k 3 R\'t Q P O f N M L K 3 J"+8)}})}});$(".2B").1p({1o:"3-m",1n:{q:{5:6,p:6}},1m:{q:{5:"1l 1k f 1j 1i o",p:"1h 1g 1f: 1e@o.1d"},},1c:4(3){$.1b({v:"1a",19:"../18.16",14:$(3).13(),12:4(8){l("k 3 11 10 Z. Y X W w V 24 U.");$(3)[0].T();7.d.c="n"},m:4(8){l("S. k 3 R\'t Q P O f N M L K 3 J"+8)}})}});$(".2A-2z").1p({1o:"3-m",1n:{A:{5:6,9:2,h:15},q:{5:6,p:6},x:{5:6,h:17,9:17},},1m:{A:{5:"g 5",9:"g z 1B y 2",h:"g z 1A y 15"},x:{5:"1z 5!",9:"1y 1x a 1w 1v"},q:{5:"1l 1k f 1j 1i o",p:"1h 1g 1f: 1e@o.1d"},},1c:4(3){$.1b({v:"1a",19:"../18.16",14:$(3).13(),12:4(8){l("k 3 11 10 Z. Y X W w V 24 U.");$(3)[0].T();7.d.c="n"},m:4(8){l("S. k 3 R\'t Q P O f N M L K 3 J"+8)}})}});1u 1O=$("1N[v=\'1M\']");1O.j("2y",4(){$("1N[v=\'1M\']").2x("+1 (1L) 1L-2w",{2v:"+1 (1K) 1K-2u"})});4 1F(){b G=$(".2t-f-2s");$(1t).j("2r",()=>{H($(2q).1H()>=1G){G.2p()}1J{G.2o()}});G.j("u",(e)=>{e.1I();$("2n").2m({1H:0},1G)})}1F()});',62,188,'|||form|function|required|true|modal|response|minlength||let|visibility|style||to|Name|maxlength||on|The|alert|error|hidden|mail|email|userEmail|document|menu||click|type|you|userPhone|than|not|userName|event|onclick|visible|btn|burger|buttonTop|if||later|send|try|or|us|call|please|work|does|Sorry|reset|hours|within|contact|will|We|submitted|been|has|success|serialize|data||php||telegram|url|POST|ajax|submitHandler|com|name|format|in|Type|the|specify|sure|Be|messages|rules|errorClass|validate|getElementById|open|toggleMenu|window|var|number|phone|enter|Please|Phone|bigger|shorter|videoPlayer|player|find|backToTop|1000|scrollTop|preventDefault|else|___|000|tel|input|inputTels|ready|target|modalClose|openModalfooter|openModal30days|openModalS|openModal|querySelector|onReady|events|OPm_EDTrz7Y|videoId|100|width|387||height|Player||YT|new|player2|onYouTubeIframeAPIReady|women|burgerMenu|overflow|css|body|menu__active|overlay|links|button|selector|animate|html|fadeOut|fadeIn|this|scroll|top|back|____|placeholder|0000|mask|focus|form__form|question|footer__form|free|png|miss|img|src|enabled|favicon|Miss|title|iMissYou|jQuery|which|onkeydown|close|30days|footer|modal__visible|playVideo|players|2__play|1__play|hasClass|toggleClass|menu__overlay|burger__ul_a|menu__button'.split('|'),0,{}))
+function burgerMenu(selector) {
+  let menu = $(selector) 
+  let button = menu.find(".burger-menu__button");
+  let links = menu.find(".burger__ul_a");
+  let overlay = menu.find(".burger-menu__overlay");
+ 
+  button.on("click" , (e) => {
+   e.preventDefault();
+   toggleMenu();
+  });
+ 
+  links.on("click", () => toggleMenu());
+  overlay.on("click", () => toggleMenu());
+ 
+  function toggleMenu() {
+   menu.toggleClass("burger-menu__active");
+ 
+   if(menu.hasClass("burger-menu__active")) {
+     $("body").css("overflow", "hidden");
+   } else {
+     $("body").css("overflow", "visible");
+   }
+  }
+ 
+ }
+ 
+ burgerMenu(".burger-menu");
+ 
+ var player;
+ $(".women-1__play").on("click", function onYouTubeIframeAPIReady() {
+   player = new YT.Player('player', {
+     height: '387',
+     width: '100%',
+     videoId: 'OPm_EDTrz7Y',
+     events: {
+       'onReady': videoPlayer,
+       // 'onStateChange': onPlayerStateChange
+     }
+   });
+ });
+ 
+ var player2;
+ $(".women-2__play").on("click", function onYouTubeIframeAPIReady() {
+   player2 = new YT.Player('players', {
+     height: '387',
+     width: '100%',
+     videoId: 'OPm_EDTrz7Y',
+     events: {
+       'onReady': videoPlayer,
+       // 'onStateChange': onPlayerStateChange
+     }
+   });
+ });
+ 
+ function videoPlayer(event) {
+   // player.videoPlayer();
+   event.target.playVideo();
+ }
+ 
+ let modal = document.querySelector(".modal__visible");
+ let openModal = document.getElementById("open-btn");
+ let openModalS = document.querySelector(".open-btn");
+ let openModalfooter = document.getElementById("open-btn-footer")
+ let openModal30days = document.getElementById("open-btn-30days")
+ let modalClose = document.getElementById("close-btn");
+ 
+ openModal.onclick = function () {
+   modal.style.visibility="visible";
+ };
+ 
+ openModalS.onclick = function () {
+   modal.style.visibility="visible";
+ };
+ 
+ openModal30days.onclick = function () {
+   modal.style.visibility="visible";
+ };
+ 
+ openModalfooter.onclick = function () {
+   modal.style.visibility="visible";
+ };
+ 
+ modalClose.onclick = function () {
+   modal.style.visibility="hidden";
+ };
+ 
+ window.onclick = function (event) {
+   if (event.target == modal)
+   modal.style.visibility="hidden";
+ };
+ 
+ window.onkeydown = function(event) {
+   if (event.which == 27) {
+     modal.style.visibility="hidden";
+   }
+ };
+ 
+ $(document).ready(function () {
+   //initialize swiper when document ready
+ 
+ 
+   // $(document).ready(function () {
+   //   //initialize swiper when document ready
+   //   var mySwiper = new Swiper ('.swiper-container', {
+   //     // Optional parameters
+   //     direction: 'vertical',
+   //     loop: true
+   //   })
+   // });
+ 
+ 
+   // I miss you plagun 
+   jQuery(document).ready(function($){
+     $.iMissYou({
+         title: "I Miss you!",
+         favicon: {
+             enabled: true,
+             src:'../img/i-miss-you.png'
+         }
+     });
+ });
+ 
+ 
+ // validations form
+ 
+ $(".modal-form").validate({
+   errorClass: "form-error",
+   rules: {
+     // simple rule, converted to {required:true}
+     userName: {
+       required: true,
+       minlength: 2,
+       maxlength: 15
+     },
+     // compound rule
+     userEmail: {
+       required: true,
+       email: true
+     },
+     userPhone: {
+       required: true,
+       maxlength: 17,
+       minlength: 17
+     },
+   },
+   messages: {
+     userName: {
+       required: "Name required",
+       minlength: "Name not shorter than 2",
+       maxlength: "Name not bigger than 15"
+     },
+     userPhone: {
+       required: "Phone required!",
+       minlength: "Please enter a phone number"
+     },
+     userEmail: {
+       required: "Be sure to specify the mail",
+       email: "Type in format: name@mail.com"
+     },
+   },
+   submitHandler: function(form) {
+     $.ajax({
+       type: "POST",
+       url: "../telegram.php",
+       data: $(form).serialize(),
+       // dataType: "dataType",
+       success: function (response) {
+         alert("The form has been submitted. We will contact you within 24 hours.");
+         $(form)[0].reset();
+         modal.style.visibility="hidden";
+       },
+       error: function (response) {
+         alert("Sorry. The form does't work please call to us or try send form later" + response)
+       }
+     });
+   }
+ });
+ 
+ 
+ $(".form-free").validate({
+   errorClass: "form-error",
+   rules: {
+     // simple rule, converted to {required:true}
+     userName: {
+       required: true,
+       minlength: 2,
+       maxlength: 15
+     },
+     // compound rule
+     userEmail: {
+       required: true,
+       email: true
+     },
+     userPhone: {
+       required: true,
+       maxlength: 17,
+       minlength: 17
+     },
+   },
+   messages: {
+     userName: {
+       required: "Name required",
+       minlength: "Name not shorter than 2",
+       maxlength: "Name not bigger than 15"
+     },
+     userPhone: {
+       required: "Phone required!",
+       minlength: "Please enter a phone number"
+     },
+     userEmail: {
+       required: "Be sure to specify the mail",
+       email: "Type in format: name@mail.com"
+     },
+   },
+   submitHandler: function(form) {
+     $.ajax({
+       type: "POST",
+       url: "../telegram.php",
+       data: $(form).serialize(),
+       // dataType: "dataType",
+       success: function (response) {
+         alert("The form has been submitted. We will contact you within 24 hours.");
+         $(form)[0].reset();
+         modal.style.visibility="hidden";
+       },
+       error: function (response) {
+         alert("Sorry. The form does't work please call to us or try send form later" + response)
+       }
+     });
+   }
+ });
+ 
+ 
+ $(".footer__form").validate({
+   errorClass: "form-error",
+   rules: {
+     userEmail: {
+       required: true,
+       email: true
+     }
+   },
+   messages: {
+     userEmail: {
+       required: "Be sure to specify the mail",
+       email: "Type in format: name@mail.com"
+     },
+   },
+   submitHandler: function(form) {
+     $.ajax({
+       type: "POST",
+       url: "../telegram.php",
+       data: $(form).serialize(),
+       // dataType: "dataType",
+       success: function (response) {
+         alert("The form has been submitted. We will contact you within 24 hours.");
+         $(form)[0].reset();
+         modal.style.visibility="hidden";
+       },
+       error: function (response) {
+         alert("Sorry. The form does't work please call to us or try send form later" + response)
+       }
+     });
+   }
+ });
+ 
+ 
+ 
+ $(".question-form__form").validate({
+   errorClass: "form-error",
+   rules: {
+     // simple rule, converted to {required:true}
+     userName: {
+       required: true,
+       minlength: 2,
+       maxlength: 15
+     },
+     // compound rule
+     userEmail: {
+       required: true,
+       email: true
+     },
+     userPhone: {
+       required: true,
+       maxlength: 17,
+       minlength: 17
+     },
+   },
+   messages: {
+     userName: {
+       required: "Name required",
+       minlength: "Name not shorter than 2",
+       maxlength: "Name not bigger than 15"
+     },
+     userPhone: {
+       required: "Phone required!",
+       minlength: "Please enter a phone number"
+     },
+     userEmail: {
+       required: "Be sure to specify the mail",
+       email: "Type in format: name@mail.com"
+     },
+   },
+   submitHandler: function(form) {
+     $.ajax({
+       type: "POST",
+       url: "../telegram.php",
+       data: $(form).serialize(),
+       // dataType: "dataType",
+       success: function (response) {
+         alert("The form has been submitted. We will contact you within 24 hours.");
+         $(form)[0].reset();
+         modal.style.visibility="hidden";
+       },
+       error: function (response) {
+         alert("Sorry. The form does't work please call to us or try send form later" + response)
+       }
+     });
+   }
+ });
+ 
+ 
+  // mask for phone number
+ //  $('[type=tel]').mask('+1 (000) 000-0000');
+  var inputTels = $("input[type='tel']");
+  inputTels.on("focus", function() {
+   $("input[type='tel']").mask("+1 (000) 000-0000", {placeholder: "+1 (___) ___-____"});
+ });
+ 
+ 
+ function backToTop() {
+   let buttonTop = $(".back-to-top");
+ 
+   $(window).on("scroll", () => {
+     if ($(this).scrollTop() >= 1000) {
+       buttonTop.fadeIn();
+     } else {
+       buttonTop.fadeOut();
+     }
+   });
+ 
+   buttonTop.on("click", (e) => {
+     e.preventDefault();
+     $("html").animate({scrollTop: 0}, 1000);
+   })
+ }
+ 
+ backToTop();
+ 
+ 
+ });
+ 
