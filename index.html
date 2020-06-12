@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/main-favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/style.css">
-  
   <title>Algotrading</title>
 </head>
 <body>
@@ -23,13 +23,13 @@
 
       <nav class="header__nav">
         <ul class="header__ul">
-          <a class="header__ul_a" href="#">
+          <a href="#nav-cost" class="header__ul_a">
             Обучение торговле 
           </a>
-          <a class="header__ul_a" href="#">
+          <a href="#nav-analysis" class="header__ul_a">
             Аналитика
           </a>
-          <a class="header__ul_a" href="#">
+          <a href="#nav-format-study" class="header__ul_a">
             О проекте
           </a>
         </ul>
@@ -51,13 +51,13 @@
 
         <nav class="burger__nav">
           <ul class="burger__ul">
-            <a class="burger__ul_a" href="#">
+            <a class="burger__ul_a" href="#nav-cost">
               Обучение торговле 
             </a>
-            <a class="burger__ul_a" href="#">
+            <a href="#nav-analysis" class="burger__ul_a">
               Аналитика
             </a>
-            <a class="burger__ul_a" href="#">
+            <a href="#nav-format-study" class="burger__ul_a">
               О проекте
             </a>
           </ul>
@@ -82,11 +82,11 @@
 
   <main class="main">
 
-    <section class="hero hero_edit">
+    <section class="hero hero_edit" id="nav-footer-to-hero">
       <div class="container hero__container">
 
         <div class="hero__info hero__info_edit hero-info">
-          <h2 class="hero-info__title">
+          <h2 class="hero-info__title animate__animated animate__fadeInLeft">
             Курс алготрейдинга
           </h2>
           <span class="hero-info__subtitle">
@@ -101,7 +101,7 @@
             <a href="#" class="hero-buttons_primary" id="open-btn">
               Начать обучение
             </a>
-            <a href="#" class="hero-buttons_outline">
+            <a href="#nav-know-more" class="hero-buttons_outline">
               узнать подробнее
             </a>
           </div>
@@ -139,7 +139,7 @@
         <div class="hero__percent_row percent">
           
           <div class="percent__left">
-            <h1 class="percent__title percent__title_edit">
+            <h1 id="nav-analysis" class="percent__title percent__title_edit">
               95<sub class="precent__title_p">%</sub>
             </h1>
             <p class="percent__subtitle_left">
@@ -263,7 +263,7 @@
         </div>
 
         <div class="creat-robot__button">
-          <a href="#" class="creat-robot__primary">
+          <a class="creat-robot__primary creat-robot__primary_edit">
             Просчитать прибыль на 2016 год
           </a>
         </div>
@@ -273,7 +273,7 @@
     </section>
     <!-- /.creat-robot -->
 
-    <section class="start-learn">
+    <section class="start-learn" id="nav-know-more">
       <div class="start-learn__bg">
       <div class="container start-lern__container">
         <div class="start-learn__text">
@@ -284,7 +284,7 @@
             создайте<br>
             своего эффективного торгового робота!
           </h3>
-          <a href="#" class="start-learn__button">
+          <a class="start-learn__button start-learn__button_edit" id="open-btn-30days">
             начать обучение
           </a>
         </div>
@@ -295,7 +295,7 @@
     </section>
     <!-- /.start-learn -->
 
-    <section class="gain">
+    <section class="gain" id="nav-footer-trading">
         <div class="container">
 
           <div class="gain__content">
@@ -398,7 +398,7 @@
 
         </div>
         <!-- /.container -->
-    </section> -->
+    </section>
     <!-- /.gain -->
 
     <section class="women-1">
@@ -486,7 +486,7 @@
     <!-- /.precent__shape -->
     <!-- /.women-1 -->
 
-    <section class="format-study">
+    <section class="format-study" id="nav-format-study">
       <div class="container">
         <h3 class="format-study__title title_center">
           Формат Обучения
@@ -598,7 +598,7 @@
     <!-- /.lear-forma -->
 
     <div class="container">
-      <div class="precent__shape how-looks__shape"></div>
+      <div class="precent__shape how-looks__shape" id="study-process"></div>
     </div>
 
     <section class="how-looks how-looks_bg">
@@ -893,6 +893,7 @@
         </div>
 
       </div>
+      </div>
       <!-- /.container -->
     </section>
     <!-- /.large-slider -->
@@ -1037,9 +1038,10 @@
               Тех.поддержка<br><br>
             </p>
 
-            <span href="#" class="cost-content__buy open-btn">
+            <span class="cost-content__buy open-btn">
               КУПИТЬ
             </span>
+
           </div>
           <!-- /.cost-learn__col -->
           <div class="cost-learn__col set-text-center">
@@ -1056,7 +1058,7 @@
               Практика<br><br><br>
             </p>
 
-            <span href="#" class="cost-content__buy open-btn">
+            <span class="cost-content__buy open-btn">
               КУПИТЬ
             </span>
           </div>
@@ -1076,7 +1078,7 @@
               Максимум практики<br><br>
             </p>
 
-            <span href="#" class="cost-content__buy open-btn">
+            <span class="cost-content__buy open-btn">
               КУПИТЬ
             </span>
           </div>
@@ -1236,7 +1238,7 @@
     <section class="cost-learn">
       <div class="container">
 
-        <h2 class="cost-learn__title set-title-center">
+        <h2 class="cost-learn__title set-title-center" id="nav-cost">
           <span class="set-text-bold">Сколько</span> стоит обучение?
         </h2>
         <p class="cost-learn__subtitle set-subtitle-center">
@@ -1310,7 +1312,7 @@
       <!-- /.container -->
     </section>
 
-    <section class="start-form start-form_bg question-form">
+    <section class="start-form start-form_bg question-form" id="question-form">
       <div class="container">
 
         <h3 class="start-form__title set-title-center">
@@ -1359,9 +1361,9 @@
             <h3 class="footer__title">
               Алготрейдинг
             </h3>
-            <a href="#" class="footer__subtitle">Обучение</a>
-            <a href="#" class="footer__subtitle">алгоритмической</a>
-            <a href="#" class="footer__subtitle">торговле</a>
+            <a href="#study-process" class="footer__subtitle" >Обучение</a>
+            <a href="#nav-footer-to-hero" class="footer__subtitle">алгоритмической</a>
+            <a href="#nav-footer-trading" class="footer__subtitle">торговле</a>
           </div>
 
           <div class="footer__middle-side footer-middle footer__middle-slide_margin">
@@ -1369,20 +1371,20 @@
               <a href="#" class="footer-middle__p">
                 Аналитика
               </a>
-              <a href="#" class="footer-middle__p">
+              <a href="#nav-format-study" class="footer-middle__p">
                 О проекте
               </a>
-              <a href="#" class="footer-middle__p">
+              <a href="tel:84959999999" class="footer-middle__p">
                 Контакты
               </a>
             </div>
             <div class="footer-middle__col">
-              <a href="#" class="footer-middle__p">
+              <a href="#question-form" class="footer-middle__p">
                 Вопросы и ответы
               </a>
-              <a href="#" class="footer-middle__p">
+              <div class="footer-middle__p" id="open-btn-footer" >
                 Записаться на курс
-              </a>
+              </div>
             </div>
           </div>
 
@@ -1484,7 +1486,7 @@
 
           <div class="modal__policy-wrap">
             <input checked type="checkbox" class="modal__checkbox modal__policy-input" id="modal-policy" name="Policy" value="Policy agree">
-            <label class="modal__checkbox-label modal__policy-label" for="modal-policy" checked>
+            <label class="modal__checkbox-label modal__policy-label" for="modal-policy">
               Я соглашаюсь с обработкой данных
             </label>
           </div>
@@ -1499,6 +1501,8 @@
       </div>
     </div>
     <!-- /.modal -->
+
+    <a href="" class="back-to-top"></a>
 
   </main>
   <!-- /.main -->

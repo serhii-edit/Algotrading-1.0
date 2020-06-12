@@ -1893,6 +1893,55 @@ h1, h2, h3, h4, h5, h6, p {
 .input-error {
   color: tomato; }
 
+.hero-buttons_primary {
+  transition: 0.4s; }
+
+.hero-buttons_outline {
+  transition: 0.4s; }
+
+.hero-buttons_primary:hover {
+  background-color: #08D406;
+  color: #fff; }
+
+.hero-buttons_outline:hover {
+  border: 1px solid coral;
+  background-color: orange;
+  color: #fff; }
+
+.start-learn__button_edit {
+  transition: 0.3s;
+  cursor: pointer; }
+
+.start-learn__button_edit:hover {
+  background-color: #fff;
+  color: #000; }
+
+.creat-robot__primary_edit {
+  transition: 0.3s; }
+
+.creat-robot__primary_edit:hover {
+  color: #fff;
+  background: red; }
+
+.back-to-top {
+  display: none;
+  outline: none;
+  text-decoration: none;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 50;
+  cursor: pointer;
+  transition: 0.1s;
+  background: url("../img/back-to-top.svg") no-repeat center/contain; }
+
+.back-to-top:hover, .back-to-top:focus {
+  filter: brightness(1.2);
+  transition: 0.1s; }
+
 @media screen and (max-width: 1185px) {
   .header__ul_a {
     margin-right: 65px; } }

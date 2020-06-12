@@ -60,6 +60,8 @@ function videoPlayer(event) {
 let modal = document.querySelector(".modal__visible");
 let openModal = document.getElementById("open-btn");
 let openModalS = document.querySelector(".open-btn");
+let openModalfooter = document.getElementById("open-btn-footer")
+let openModal30days = document.getElementById("open-btn-30days")
 let modalClose = document.getElementById("close-btn");
 
 openModal.onclick = function () {
@@ -67,6 +69,14 @@ openModal.onclick = function () {
 };
 
 openModalS.onclick = function () {
+  modal.style.visibility="visible";
+};
+
+openModal30days.onclick = function () {
+  modal.style.visibility="visible";
+};
+
+openModalfooter.onclick = function () {
   modal.style.visibility="visible";
 };
 
@@ -315,5 +325,26 @@ $(".question-form__form").validate({
  inputTels.on("focus", function() {
   $("input[type='tel']").mask("+1 (000) 000-0000", {placeholder: "+1 (___) ___-____"});
 });
+
+
+function backToTop() {
+  let buttonTop = $(".back-to-top");
+
+  $(window).on("scroll", () => {
+    if ($(this).scrollTop() >= 1000) {
+      buttonTop.fadeIn();
+    } else {
+      buttonTop.fadeOut();
+    }
+  });
+
+  buttonTop.on("click", (e) => {
+    e.preventDefault();
+    $("html").animate({scrollTop: 0}, 1000);
+  })
+}
+
+backToTop();
+
 
 });
