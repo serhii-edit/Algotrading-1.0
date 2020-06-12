@@ -30,8 +30,9 @@ foreach($arr as $key => $value) {
 $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 
 if ($sendToTelegram) {
-  echo('Thank You!');
+  alert ('Thank You!');
 } else {
-  echo "Error";
+  alert "Information has not submited, has been mistake, Code of miskate: 
+        {$sendToTelegram->ErrorInfo}";
 }
 ?>

@@ -59,20 +59,20 @@ function videoPlayer(event) {
 
 let modal = document.querySelector(".modal__visible");
 let openModal = document.getElementById("open-btn");
-var openModalS = document.querySelector(".open-btn");
+let openModalS = document.querySelector(".open-btn");
 let modalClose = document.getElementById("close-btn");
 
 openModal.onclick = function () {
   modal.style.visibility="visible";
-}
+};
 
 openModalS.onclick = function () {
   modal.style.visibility="visible";
-}
+};
 
 modalClose.onclick = function () {
   modal.style.visibility="hidden";
-}
+};
 
 window.onclick = function (event) {
   if (event.target == modal)
@@ -99,6 +99,7 @@ $(document).ready(function () {
   // });
 
 
+  // I miss you plagun 
   jQuery(document).ready(function($){
     $.iMissYou({
         title: "I Miss you!",
@@ -109,30 +110,210 @@ $(document).ready(function () {
     });
 });
 
-$(".modal-form").validate({
-  
-  $("#myform").validate({
-    errorClass: "input-error",
-  }),
 
+// validations form
+
+$(".modal-form").validate({
+  errorClass: "form-error",
   rules: {
     // simple rule, converted to {required:true}
-    userName: "required",
-    userPhone: "required",
+    userName: {
+      required: true,
+      minlength: 2,
+      maxlength: 15
+    },
     // compound rule
+    userEmail: {
+      required: true,
+      email: true
+    },
+    userPhone: {
+      required: true,
+      maxlength: 17,
+      minlength: 17
+    },
+  },
+  messages: {
+    userName: {
+      required: "Name required",
+      minlength: "Name not shorter than 2",
+      maxlength: "Name not bigger than 15"
+    },
+    userPhone: {
+      required: "Phone required!",
+      minlength: "Please enter a phone number"
+    },
+    userEmail: {
+      required: "Be sure to specify the mail",
+      email: "Type in format: name@mail.com"
+    },
+  },
+  submitHandler: function(form) {
+    $.ajax({
+      type: "POST",
+      url: "../telegram.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        alert("The form has been submitted. We will contact you within 24 hours.");
+        $(form)[0].reset();
+        modal.style.visibility="hidden";
+      },
+      error: function (response) {
+        alert("Sorry. The form does't work please call to us or try send form later" + response)
+      }
+    });
+  }
+});
+
+
+$(".form-free").validate({
+  errorClass: "form-error",
+  rules: {
+    // simple rule, converted to {required:true}
+    userName: {
+      required: true,
+      minlength: 2,
+      maxlength: 15
+    },
+    // compound rule
+    userEmail: {
+      required: true,
+      email: true
+    },
+    userPhone: {
+      required: true,
+      maxlength: 17,
+      minlength: 17
+    },
+  },
+  messages: {
+    userName: {
+      required: "Name required",
+      minlength: "Name not shorter than 2",
+      maxlength: "Name not bigger than 15"
+    },
+    userPhone: {
+      required: "Phone required!",
+      minlength: "Please enter a phone number"
+    },
+    userEmail: {
+      required: "Be sure to specify the mail",
+      email: "Type in format: name@mail.com"
+    },
+  },
+  submitHandler: function(form) {
+    $.ajax({
+      type: "POST",
+      url: "../telegram.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        alert("The form has been submitted. We will contact you within 24 hours.");
+        $(form)[0].reset();
+        modal.style.visibility="hidden";
+      },
+      error: function (response) {
+        alert("Sorry. The form does't work please call to us or try send form later" + response)
+      }
+    });
+  }
+});
+
+
+$(".footer__form").validate({
+  errorClass: "form-error",
+  rules: {
     userEmail: {
       required: true,
       email: true
     }
   },
   messages: {
-    userName: "Name required!",
     userEmail: {
       required: "Be sure to specify the mail",
       email: "Type in format: name@mail.com"
-    }
+    },
+  },
+  submitHandler: function(form) {
+    $.ajax({
+      type: "POST",
+      url: "../telegram.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        alert("The form has been submitted. We will contact you within 24 hours.");
+        $(form)[0].reset();
+        modal.style.visibility="hidden";
+      },
+      error: function (response) {
+        alert("Sorry. The form does't work please call to us or try send form later" + response)
+      }
+    });
   }
 });
 
+
+
+$(".question-form__form").validate({
+  errorClass: "form-error",
+  rules: {
+    // simple rule, converted to {required:true}
+    userName: {
+      required: true,
+      minlength: 2,
+      maxlength: 15
+    },
+    // compound rule
+    userEmail: {
+      required: true,
+      email: true
+    },
+    userPhone: {
+      required: true,
+      maxlength: 17,
+      minlength: 17
+    },
+  },
+  messages: {
+    userName: {
+      required: "Name required",
+      minlength: "Name not shorter than 2",
+      maxlength: "Name not bigger than 15"
+    },
+    userPhone: {
+      required: "Phone required!",
+      minlength: "Please enter a phone number"
+    },
+    userEmail: {
+      required: "Be sure to specify the mail",
+      email: "Type in format: name@mail.com"
+    },
+  },
+  submitHandler: function(form) {
+    $.ajax({
+      type: "POST",
+      url: "../telegram.php",
+      data: $(form).serialize(),
+      // dataType: "dataType",
+      success: function (response) {
+        alert("The form has been submitted. We will contact you within 24 hours.");
+        $(form)[0].reset();
+        modal.style.visibility="hidden";
+      },
+      error: function (response) {
+        alert("Sorry. The form does't work please call to us or try send form later" + response)
+      }
+    });
+  }
+});
+
+
+ // mask for phone number
+//  $('[type=tel]').mask('+1 (000) 000-0000');
+ var inputTels = $("input[type='tel']");
+ inputTels.on("focus", function() {
+  $("input[type='tel']").mask("+1 (000) 000-0000", {placeholder: "+1 (___) ___-____"});
+});
 
 });

@@ -75,3 +75,12 @@
   border-radius: 4px;
   background-color: #0842b7;
 }
+
+.form-free__input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-free__input {
+  margin-bottom: 5px;
+}
